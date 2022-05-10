@@ -1,0 +1,41 @@
+ANY REPEATED TAX MORE THAN ONE TYPE IS CALLED LOOP.
+YOU PUT YOUR FVT SONG OON A REPEAT MORE.
+SYNTAX-
+WHILE<CONDITION>:
+STATEMENT
+WHY DO WE USE LOOP?
+if any tax not repeat moretime and work easily this time using loop.
+ITERATE-
+It means that executing the block of the code over and over any time.
+WHILE LOOP-
+A while loop is a control flow statement that allows code to be executed repeatedly based on a given boolean condition.
+In while loop  statement is executed then before or after insides the values.
+FOR LOOP-
+A for loop in python is a control flow statement  i.e used to repeatedly execute a group of statement
+as long as the condition is satishfied .In for loop executed then after inside the value.
+BREAK-
+It is a loop control statement .It is used to control the sequence of the loop.It is a keyword in python.
+CONTINUE STATEMENT:
+With the continue statement we can stop the current iteration, and continue with the next:
+Example:
+Continue to the next iteration if i is 3:
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+RANGE():
+To loop through a set of code a specified number of times, we can use the range() function,
+
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+Example
+
+Using the range() function:
+for x in range(6):
+  print(x)   
+PASS STATEMENT:
+for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
+Example
+for x in [0, 1, 2]:
+  pass   
